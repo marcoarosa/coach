@@ -40,14 +40,14 @@ hbs.registerHelper('screamIt',(text) => {
 
 app.get('/',(req,res) => {
     res.render('home.hbs',{
-        pageTitle: 'Home Page',
-        welcomeMessage: 'Welcome to my Site!'
+        pageTitle: 'Christian Life Coaching',
+        welcomeMessage: 'Site Dev in progress...'
     })
 });
 
 app.get('/about',(req,res) => {
     res.render('about.hbs',{
-        pageTitle: 'About Page'    })
+        pageTitle: 'About me: Jordan Rosa'    })
 });
 
 app.get('/bad',(req,res) => {
